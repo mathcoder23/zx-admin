@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.mt23.zhongxin.admin.entity.CompanyEntity" table="company" schema="ag_admin">
+        <id name="id" column="id"/>
+        <property name="name" column="name"/>
+        <property name="phone" column="phone"/>
+        <property name="telphone" column="telphone"/>
+        <property name="about" column="about"/>
+        <property name="logo" column="logo"/>
+        <property name="email" column="email"/>
+        <property name="address" column="address"/>
+        <property name="contact" column="contact"/>
+        <property name="crtTime" column="crt_time"/>
+        <property name="crtUser" column="crt_user"/>
+        <property name="crtHost" column="crt_host"/>
+        <property name="crtName" column="crt_name"/>
+        <property name="updTime" column="upd_time"/>
+        <property name="updUser" column="upd_user"/>
+        <property name="updName" column="upd_name"/>
+        <property name="updHost" column="upd_host"/>
+        <property name="icp" column="icp"/>
+        <property name="tagline" column="tagline"/>
+    </class>
+</hibernate-mapping>

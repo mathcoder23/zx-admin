@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.mt23.zhongxin.admin.entity.ZxProductSortProductEntity" table="zx_product_sort_product"
+           schema="ag_admin">
+        <id name="id" column="id"/>
+        <property name="zxProductId" column="zx_product_id"/>
+        <property name="zxProductSortId" column="zx_product_sort_id"/>
+        <property name="crtTime" column="crt_time"/>
+        <property name="crtUser" column="crt_user"/>
+        <property name="crtName" column="crt_name"/>
+        <property name="crtHost" column="crt_host"/>
+        <property name="updTime" column="upd_time"/>
+        <property name="updUser" column="upd_user"/>
+        <property name="updName" column="upd_name"/>
+        <property name="updHost" column="upd_host"/>
+    </class>
+</hibernate-mapping>

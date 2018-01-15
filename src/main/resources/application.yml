@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://47.104.85.81:3306/ag_admin?useUnicode=true&characterEncoding=UTF8&useSSL=false
+        username: root
+        password: ZhongXin888
+
+    jackson:
+        serialization:
+            indent_output: true
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+    freemarker:
+        charset: UTF-8
+        template-loader-path: 'classpath:/templates/ '

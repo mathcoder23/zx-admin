@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.mt23.zhongxin.admin.entity.BaseUserEntity" table="base_user" schema="ag_admin">
+        <id name="id" column="id"/>
+        <property name="username" column="username"/>
+        <property name="password" column="password"/>
+        <property name="name" column="name"/>
+        <property name="birthday" column="birthday"/>
+        <property name="address" column="address"/>
+        <property name="mobilePhone" column="mobile_phone"/>
+        <property name="telPhone" column="tel_phone"/>
+        <property name="email" column="email"/>
+        <property name="sex" column="sex"/>
+        <property name="type" column="type"/>
+        <property name="status" column="status"/>
+        <property name="description" column="description"/>
+        <property name="crtTime" column="crt_time"/>
+        <property name="crtUser" column="crt_user"/>
+        <property name="crtName" column="crt_name"/>
+        <property name="crtHost" column="crt_host"/>
+        <property name="updTime" column="upd_time"/>
+        <property name="updUser" column="upd_user"/>
+        <property name="updName" column="upd_name"/>
+        <property name="updHost" column="upd_host"/>
+        <property name="attr1" column="attr1"/>
+        <property name="attr2" column="attr2"/>
+        <property name="attr3" column="attr3"/>
+        <property name="attr4" column="attr4"/>
+        <property name="attr5" column="attr5"/>
+        <property name="attr6" column="attr6"/>
+        <property name="attr7" column="attr7"/>
+        <property name="attr8" column="attr8"/>
+        <property name="age" column="age"/>
+    </class>
+</hibernate-mapping>
